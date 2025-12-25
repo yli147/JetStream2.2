@@ -1825,18 +1825,18 @@ function processTestList(testList)
     }
 }
 
-let runOctane = true;
-let runARES = true;
-let runWSL = true;
-let runRexBench = true;
-let runWTB = true;
+let runOctane = false;
+let runARES = false;
+let runWSL = false;
+let runRexBench = false;
+let runWTB = false;
 let runSunSpider = true;
-let runSimple = true;
-let runCDJS = true;
-let runWorkerTests = !!isInBrowser;
-let runSeaMonster = true;
-let runCodeLoad = true;
-let runWasm = true;
+let runSimple = false;
+let runCDJS = false;
+let runWorkerTests = false; //!!isInBrowser;
+let runSeaMonster = false;
+let runCodeLoad = false;
+let runWasm = false;
 if (typeof WebAssembly === "undefined")
     runWasm = false;
 
