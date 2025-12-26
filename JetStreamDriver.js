@@ -55,8 +55,8 @@ if (typeof(URLSearchParams) !== "undefined") {
 this.currentResolve = null;
 this.currentReject = null;
 
-const defaultIterationCount = 120;
-const defaultWorstCaseCount = 4;
+const defaultIterationCount = 5;
+const defaultWorstCaseCount = 1;
 
 let showScoreDetails = false;
 let categoryScores = null;
